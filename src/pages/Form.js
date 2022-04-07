@@ -44,7 +44,7 @@ const Form = () => {
 
   return (
     <form>
-      <div className="container">
+      <div className="container form-container">
         <div className="form-group">
           <label for="formGroupExampleInput2">Image</label>
           <input
