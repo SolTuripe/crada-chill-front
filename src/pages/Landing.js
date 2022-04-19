@@ -21,8 +21,7 @@ const Landing = () => {
   const handleDeleteMovie = (id) => {
     const updatedMovies = fetch(`http://localhost:8080/movies/${id}`, {
       method: "DELETE",
-    }).then(() => this.setState({ status: "Delete successful" }));
-    setMovies(updatedMovies);
+    }).then(() => setMovies(updatedMovies));
   };
 
   const renderMovies = () => {
