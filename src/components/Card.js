@@ -3,9 +3,9 @@ import React from "react";
 const Card = ({ image, score, name, director, genre, onDelete }) => {
   console.log(image);
   return (
-    <div className="card p-1 m-3 " style={{ width: "16rem" }}>
+    <div className="card p-1 m-4" style={{ width: "16rem" }}>
       <img className="card-img-top" src={image} alt="" />
-      <button className="rounded-3 btn btn-secondary btn-sm opacity-75">
+      <button className="rounded-3 btn btn-secondary btn-sm opacity-76">
         {score}
       </button>
 

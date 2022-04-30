@@ -52,7 +52,7 @@ const Form = () => {
             value={image}
             onChange={handleChangeImage}
             className="form-control"
-            placeholder="Image"
+            placeholder="insert movie image here"
           />
         </div>
         <div className="form-group">
@@ -62,17 +62,17 @@ const Form = () => {
             value={score}
             onChange={handleChangeScore}
             className="form-control"
-            placeholder="Score"
+            placeholder="insert movie score here"
           />
         </div>
         <div className="form-group">
-          <label for="formGroupExampleInput2">Name</label>
+          <label for="formGroupExampleInput2">Title</label>
           <input
             type="text"
             value={name}
             onChange={handleChangeName}
             className="form-control"
-            placeholder="Title"
+            placeholder="insert movie title here"
           />
         </div>
         <div className="form-group">
@@ -82,7 +82,7 @@ const Form = () => {
             value={director}
             onChange={handleChangeDirector}
             className="form-control"
-            placeholder="Director"
+            placeholder="insert director's name here"
           />
         </div>
         <div className="form-group">
@@ -92,10 +92,14 @@ const Form = () => {
             value={genre}
             onChange={handleChangeGenre}
             className="form-control"
-            placeholder="Genre"
+            placeholder="insert movie genre here"
           />
         </div>
-        <button type="button" className="btn btn-danger" onClick={handleClick}>
+        <button
+          type="button"
+          className="btn btn-danger boton"
+          onClick={handleClick}
+        >
           Submit
         </button>
       </div>
