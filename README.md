@@ -20,7 +20,31 @@ In this repository we create the User Interface for our Crada&Chill project
 
 [You can access the BackEnd of Crada&Chill here](https://github.com/SolTuripe/crada-chill-back)
 
-## Available Scripts
+## Project Setup 🎞
+
+These instructions will allow you to get a working copy of the project on your local computer, for development and testing purposes:
+
+```
+- Git clone or fork this repository https://github.com/SolTuripe/crada-chill-front.git
+- cd crada-chill-front
+- npm install
+
+```
+
+## Demo of the proyect 🎥
+
+<p align="center">
+<img src="./src/assets/img/crada-chill.gif" alt="animated" width=85% />
+</p>
+
+## Tech Stack & Tools 📽
+
+- Figma
+- Trello
+- React
+- Agile Methodologies
+
+## Available Scripts 📺
 
 In the project directory, you can run:
 
