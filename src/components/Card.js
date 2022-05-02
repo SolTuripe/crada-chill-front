@@ -1,7 +1,6 @@
 import React from "react";
 
 const Card = ({ image, score, name, director, genre, onDelete }) => {
-  console.log(image);
   return (
     <div className="card p-1 m-4" style={{ width: "16rem" }}>
       <img className="card-img-top" src={image} alt="" />

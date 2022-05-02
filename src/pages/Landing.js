@@ -7,21 +7,26 @@ const Landing = () => {
   const [movies, setMovies] = React.useState([]);
 
   useEffect(() => {
-    console.log("mount");
     setLoading(false);
     fetch("http://localhost:8080/movies")
       .then((res) => res.json())
       .then((result) => {
         setMovies(result);
-        console.log(result);
         setLoading(false);
       });
   }, []);
 
-  const handleDeleteMovie = (id) => {
-    const updatedMovies = fetch(`http://localhost:8080/movies/${id}`, {
-      method: "DELETE",
-    }).then(() => setMovies(updatedMovies));
+  const handleDeleteMovie = async (id) => {
+    try {
+      await fetch(`http://localhost:8080/movies/${id}`, {
+        method: "DELETE",
+      });
+      const updatedMovies = movies.filter((movie) => movie.id !== id);
+
+      setMovies(updatedMovies);
+    } catch (error) {
+      console.log(error.message);
+    }
   };
 
   const renderMovies = () => {
