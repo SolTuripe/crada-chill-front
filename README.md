@@ -28,7 +28,6 @@ These instructions will allow you to get a working copy of the project on your l
 - Git clone or fork this repository https://github.com/SolTuripe/crada-chill-front.git
 - cd crada-chill-front
 - npm install
-
 ```
 
 ## Demo of the proyect 🎥
