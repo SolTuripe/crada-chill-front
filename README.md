@@ -33,7 +33,7 @@ These instructions will allow you to get a working copy of the project on your l
 ## Demo of the proyect 🎥
 
 <p align="center">
-<img src="./src/assets/img/crada-chill.gif" alt="animated" width=85% />
+<img src="./src/assets/img/crada-chill.gif" alt="animated" width=68% />
 </p>
 
 ## Tech Stack & Tools 📽
